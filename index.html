@@ -1,39 +1,78 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>jancelin.github.io by jancelin</title>
-  </head>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-  <body>
-    <div id="container">
-      <div class="inner">
+		<title>GeoPoppy</title>
 
-        <header>
-          <h1>jancelin.github.io</h1>
-          <h2></h2>
-        </header>
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
 
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/jancelin" id="view-on-github" class="button"><span>View on GitHub</span></a>
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background-image="media/1.png" data-background-size="100%" data-background-position="0% -5%" >
         </section>
-
-        <hr>
-
-        <section id="main_content">
-          <h3>
- <iframe style="width: 100%;height: 100%;position: relative;" src="http://complement-terre.fr/mnt"></iframe> 
-            
+        <section data-background-image="media/2.png" data-background-size="100%" data-background-position="0% -5%" >
         </section>
-      </div>
-    </div>
-  </body>
+        <section data-background-image="media/3.png"  data-background-size="55%" data-background-color="#ffffff" data-background-position="50% 50%" >
+        </section>
+        <section data-background-video="media/4.mp4" data-background-color="#000">
+        </section>
+        <section data-background-image="media/5.png" data-background-size="100%" data-background-position="0% -5%" >
+        </section>
+        <section data-background-image="media/6.png" data-background-size="100%" data-background-position="0% -5%" >
+        </section>
+        <section data-background-image="media/7.jpg" data-background-size="100%" data-background-color="#ffffff" data-background-position="50% 50%" >
+        </section>
+        <section data-background-image="media/8.png" data-background-size="100%" data-background-position="0% -5%" >
+        </section>
+        <section>
+          <video controls width="30%" data-autoplay src="media/9_1.mp4"></video>
+        </section>
+        <section data-background-color="#000">
+          <video controls width="30%" data-autoplay src="media/9_2.mp4"></video>
+        </section>
+        </section>
+        <section data-background-image="media/10.png" data-background-size="100%" data-background-position="0% -5%" >
+        </section>
+        <section data-background-video="media/11.mp4" data-background-color="#000">
+        </section>
+        <section data-background-video="media/12.mp4" data-background-color="#000">
+        </section>
+        <section data-background-image="media/13.png" data-background-size="100%" data-background-position="0% -5%" >
+        </section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
 </html>
