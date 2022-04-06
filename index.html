@@ -98,8 +98,12 @@
 				</section>
 				<section data-background-image="media/6.png" data-background-size="90%" data-background-color="#ffffff" data-background-position= center >
 				</section>
+                <!--
+                convert *.png to mp4
+                ffmpeg -framerate 1 -i evolution%4d.png -c:v libx264 -preset medium -tune stillimage -crf 18 -c:a copy -shortest -pix_fmt yuv420p -s:v 1920x1080 evolution_centipedeRTK.mp4
+                -->
 				<section data-background-color="#000">
-					<video controls width="100%" data-autoplay src="media/evolution_centipede.mp4"></video>
+					<video controls width="100%" data-autoplay src="media/evol_centipede/evolution_centipedeRTK.mp4"></video>
         </section>
 				<!-- <section data-background-image="media/7.png" data-background-size="90%" data-background-color="#ffffff" data-background-position= center >
 				</section> -->
@@ -112,6 +116,8 @@
                 <section data-background-image="media/organisation.png" data-background-size="90%" data-background-color="#ffffff" data-background-position= center >
                 </section>
                 <section data-background-image="media/connect_caster.png" data-background-size="90%" data-background-color="#ffffff" data-background-position= center >
+                </section>
+                <section data-background-image="media/basevar.png" data-background-size="90%" data-background-color="#ffffff" data-background-position= center >
                 </section>
 
                 <section data-background-image="media/materiel.png" data-background-size="90%" data-background-color="#ffffff" data-background-position= center >
